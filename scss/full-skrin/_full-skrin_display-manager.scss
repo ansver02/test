@@ -1,0 +1,68 @@
+.display-manage__wraper{
+    .decoration-cubs{
+        width: 635px;
+       // height: 860px;
+       height: 730px;
+    }
+    .first-cube{
+        left: -455px;
+        top: -305px;
+    }
+    .second-cube{
+        padding: 40px;
+        top:-600px;
+        right: -550px;       
+    }
+    .third-cube{
+        padding: 40px;
+        bottom: -605px;
+        right: -185px;
+        }
+}
+
+
+.display-content{
+        h2{
+        font-size: 56px;
+        max-width: 655px;
+
+        a::after{              
+            right: -55px; 
+            width: 260px;
+            height: 18px;
+
+        }
+        }
+ 
+    .img-container{
+
+    .back-img{
+        width: 965px;
+        height: auto;
+    }
+
+            .decoration-element{
+                font-size: 14px;
+                padding: 23px 27px 23px 10px;                
+                span{
+                    padding: 15px;
+                    margin-right: 8px;                      
+                }        
+            }
+
+            .first{
+                left: -105px;
+                top: -60px;
+
+            }
+            .second{
+                right: -140px;
+                top: 170px;
+            }
+            .third{
+                bottom: -50px;
+                left: -60px;     
+            }
+        
+        }
+    }

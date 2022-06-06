@@ -1,0 +1,14 @@
+@import './scss/vars';
+
+//mobile style
+@import './scss/mobile/mobile-global';
+@import './scss/mobile/mobile_main';
+
+//desktop style
+@import './scss/desktop/desktop-main';
+
+
+
+
+//ful-skrin style
+@import './scss/full-skrin/full-skrin-main';

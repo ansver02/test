@@ -1,0 +1,134 @@
+.web-controle{
+    background-color: $light-blue-color;
+    padding: 2.07vw 2.07vw 0px 2.07vw;
+
+    .web-controle__top-container{
+        display: flex;
+        border-radius: 10px;
+
+        .web-controle__info-content{
+            background-color: $yellow-color;
+            border-radius: 10px 0 0 10px;
+            h2{
+                margin: 6.55vw auto 1.73vw auto;
+                max-width: 33.81vw;
+                color: $text-color;
+                font-size: 3.312vw;
+                a{
+                    color: $text-color;  
+                    &:hover{
+                        color: $light-blue-color;
+                    }  
+                }
+            }
+            p{
+                color: $text-color;
+                margin-bottom: 10vw;
+                font-size: 1.7vw;
+            }
+            .link-container{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-top: 0;
+                
+                .web-controle__free-link{
+                    background-color: #fff;
+                    margin: 0;
+                    border-radius: 5px;
+                    margin-right: 1.73vw;
+                    font-size: 1.25vw;
+                    padding: 1.04vw 2.08vw;
+
+                    &:hover{
+                        background-color: $light-blue-color;
+                        color: #fff;
+                    }
+
+                }
+                .web-controle__order-link{
+                    font-size: 1.25vw;
+                    color: $text-color;
+                    margin: 0;
+
+                    &:hover{
+                        color: $light-blue-color;
+                    }
+                    &::before{
+                        top: -0.992vw;
+                        left: -4.5vw;
+                        width: 3.5vw;
+                        height: 3.5vw;
+                        background-image: url(../img/icons-arrow/blue_arrow_grey_fone.jpg);
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+
+        .img-container{
+            .desktop-img{
+                display: block;
+                border-radius: 0 10px 10px 0;
+                width: 47.61vw;
+                height: auto;
+
+            }
+            .telephone-img{
+                display: none;
+                
+            }
+        }
+
+    }
+
+    &__bootom-container{
+        display: block;
+        padding-top: 105px;
+        text-align: center;
+        
+        h2{
+            margin: 0;
+            margin-bottom: 45px;
+            color: #fff;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 109.52%;
+        }
+        .decisions{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+
+            li{
+                list-style: none;
+                margin: 0;
+                margin-bottom: 15px;
+                padding: 0;
+                width: calc((100% - 30px)/2);
+                min-height: 386px;
+                border-radius: 10px;
+
+                h3{
+                    margin-left: 65px;
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 100.5%;
+                    color: #fff;
+                }
+            }
+            .advertising-networks{
+                background-image: url(../img/nout-img.jpg);
+            }
+            .tv{
+                background-image: url(../img/tv-img.jpg);
+            }
+            .restorans{
+                background-image: url(../img/restorans-img.jpg);
+            }
+        }
+    }
+}
